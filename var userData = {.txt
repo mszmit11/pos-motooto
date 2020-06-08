@@ -1,0 +1,26 @@
+var userData = {
+  "name":["Jan","Kowalski"],
+  "email" : "jan@Kowalski.pl",
+  "settings" : {
+    "sound" : "off",
+    "fullScreen": true,
+    "newsDisplayed" : 5
+  },
+  "Characters" :[{"Conen":{
+                    "level":10,
+                    "items":["topor"],
+                    "hungry": true
+                  }
+                },{
+                "Druzzt":{
+                  "level":4,
+                  "items":["sejmitar","sejmitar"],
+                  "hungry": true
+                }
+                },{
+                "Garelt":{
+                  "level":10,
+                  "items":["miecz","miecz"],
+                  "hungry": true
+                }
+                }]
