@@ -1,39 +1,39 @@
-html{background-color: rgb(239, 229, 252);-webkit-text-size-adjust:100%;font-family:Gotham,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; line-height:1.5}body,h2,p,ul{margin:0}a{background-color:transparent;color:inherit;text-decoration:inherit}img{border-style:solid}ul{list-style:none;padding:0}*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e2e8f0}h2{font-size:inherit;font-weight:inherit}img,svg{display:block;vertical-align:middle}img{max-width:100%;height:auto}.bg-white{background-color:#fff}.bg-ex-darkblue{background-color:#343d4b}.bg-ex-lightgrey{background-color:#f5f6fc}.border-ex-lightblue{border-color:rgba(133,137,160,.3)}.border-ex-lightgrey{border-color:#f5f6fc}.border-b-2{border-bottom-width:2px}.border-l{border-left-width:1px}.flex{display:flex}.flex-row{flex-direction:row}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.font-sans{font-family:Gotham,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}.font-light{font-weight:300}.font-semibold{font-weight:600}.h-16{height:4rem}.leading-relaxed{line-height:1.625}.my-10{margin-top:2.5rem;margin-bottom:2.5rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-3{margin-left:.75rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-10{margin-top:2.5rem}.mt-auto{margin-top:auto}.-mt-px{margin-top:-1px}.max-w-2xl{max-width:42rem}.min-h-screen{min-height:100vh}.py-3{padding-top:.75rem;padding-bottom:.75rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.pl-3{padding-left:.75rem}.shadow-xl{box-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 10px 10px -5px rgba(0,0,0,.04)}.text-center{text-align:center}.text-white{color:#fff}.text-gray-700{color:#4a5568}.text-sm{font-size:.875rem}.text-2xl{font-size:1.5rem}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-full{width:100%}.logo-black{filter:grayscale()}@font-face{font-family:'Gotham';src:url(../fonts/Gotham-Light.woff2) format('woff2');font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:'Gotham';src:url(../fonts/Gotham-Bold.woff2) format('woff2');font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:'Gotham';src:url(../fonts/Gotham-Book.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Gotham';src:url(../fonts/Gotham-Medium.woff2) format('woff2');font-weight:500;font-style:normal;font-display:swap}@media (min-width:640px){.sm\:h-96{height:24rem}}@media (min-width:768px){.md\:px-0{padding-left:0;padding-right:0}}@media (min-width:1024px){.lg\:h-128{height:32rem}}
-.doc {padding: 10px; margin: 10px;}
-img
-{
+html{background-color: rgb(239, 229, 252);-webkit-text-size-adjust:100%;font-family:Gotham,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; line-height:1.5}body,h2,p,ul{margin:center;}a{background-color:transparent;color:inherit;text-decoration:inherit}img{border-style:solid}ul{list-style:none;padding:0}*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e2e8f0}h2{font-size:inherit;font-weight:inherit}img,svg{display: flex;vertical-align:middle}img{max-width:100%;height:auto}.bg-white{background-color:#fff}.bg-ex-darkblue{background-color:#343d4b}.bg-ex-lightgrey{background-color:#f5f6fc}.border-ex-lightblue{border-color:rgba(133,137,160,.3)}.border-ex-lightgrey{border-color:#f5f6fc}.border-b-2{border-bottom-width:2px}.border-l{border-left-width:1px}.flex{display:flex}.flex-row{flex-direction:row}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.font-sans{font-family:Gotham,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}.font-light{font-weight:300}.font-semibold{font-weight:600}.h-16{height:4rem}.leading-relaxed{line-height:1.625}.my-10{margin-top:2.5rem;margin-bottom:2.5rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-3{margin-left:.75rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-10{margin-top:2.5rem}.mt-auto{margin-top:auto}.-mt-px{margin-top:-1px}.max-w-2xl{max-width:42rem}.min-h-screen{min-height:100vh}.py-3{padding-top:.75rem;padding-bottom:.75rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.pl-3{padding-left:.75rem}.shadow-xl{box-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 10px 10px -5px rgba(0,0,0,.04)}.text-center{text-align:center}.text-white{color:#fff}.text-gray-700{color:#4a5568}.text-sm{font-size:.875rem}.text-2xl{font-size:1.5rem}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-full{width:100%}.logo-black{filter:grayscale()}@font-face{font-family:'Gotham';src:url(../fonts/Gotham-Light.woff2) format('woff2');font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:'Gotham';src:url(../fonts/Gotham-Bold.woff2) format('woff2');font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:'Gotham';src:url(../fonts/Gotham-Book.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Gotham';src:url(../fonts/Gotham-Medium.woff2) format('woff2');font-weight:500;font-style:normal;font-display:swap}@media (min-width:640px){.sm\:h-96{height:24rem}}@media (min-width:768px){.md\:px-0{padding-left:0;padding-right:0}}@media (min-width:1024px){.lg\:h-128{height:32rem}}
+.doc { }
+img{
       height:200px;
       width: 250px;
 }
-h2
-{
+h2{
       font-size: 12px;
+      text-align: center;
 }
-h3
-{
+h3{
       color: rgba(255, 51, 0, 0.966);
       text-shadow: 2px 2px rgba(133,137,160,.3);
+      text-align: center;
       padding: 0;
       margin: 0;
 }
-h4
-{
+h4{
       color: rgba(0, 17, 255, 0.918);
       text-shadow: 2px 2px rgba(133,137,160,.3);
+      text-align: center;
       padding:0;
       margin: 0;
-      }
-.flexbox-container 
-{
-      border-radius: 8px;
+}
+.flexbox-container{
+      border-radius: 5px 5px 5px 5px;
+      border: 3px solid rgb(255, 255, 255);
+      box-shadow: 4px 4px rgba(35, 40, 58, 0.3);
+      display: inline-flex;
+      align-items: baseline;
       margin: 2%;
       padding: 2%;
-      border: 3px solid rgb(255, 255, 255);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 4px 4px rgba(35, 40, 58, 0.3);
+      justify-content: space-around;
+      
 }
+
 
 
 

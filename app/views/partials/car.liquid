@@ -1,18 +1,19 @@
-<div class="flexbox-container">
-    <div>
+    <div class="flexbox-container">
         <div>
-            <img src="{{car.images[0].filename | asset_url}}" alt="">
+            <div>
+                <img src="{{car.images[0].filename | asset_url}}" alt="">
+            </div>
+            <div>
+                <h4>{{ car.mark | upcase }} {{ car.model }}</h4>
+            </div>
+            <div>
+                <h2>{{ car.manufacture_year }}
+                - {{ car.mileage }}km
+                - {{ car.enginetype }}
+                - {{ car.capacity }}cm3</h2>
+            </div>
+            <h3>{{car.price}}PLN</h3>
         </div>
-        <div>
-            <h4>{{ car.mark | upcase }} {{ car.model }}</h4>
-        </div>
-        <div>
-            <h2>{{ car.manufacture_year }}
-            - {{ car.mileage }}km
-            - {{ car.enginetype }}
-            - {{ car.capacity }}cm3</h2>
-        </div>
-        <h3>{{car.price}}PLN</h3>
     </div>
-</div>
+
 
