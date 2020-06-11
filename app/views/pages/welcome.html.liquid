@@ -2,58 +2,6 @@
     {% include 'cars' %}
 {% endparse_json %}
 
-<div id='Subaru'>
-    <div id = 'SubaruQ'>
-        <h1>{{cars[0].mark}}</h1>
-        <h1>{{cars[0].model}}</h1>
-    </div>
-    <div id='SubaruSpec'>
-        {{cars[0].YoP}},
-        {{cars[0].Mileage}},
-        {{cars[0].EngineType}},
-        {{cars[0].Capacity}}
-    </div>
-    <h3>{{cars[0].Price}}</h3>
-</div>
-
-<div id = "Skoda">
-    <div id = "SkodaQ">
-        <h1>{{cars[1].mark}}</h1>
-        <h1>{{cars[1].model}}</h1>
-    </div>
-    <div id = "SkodaSpec">
-        {{cars[1].YoP}},
-        {{cars[1].Mileage}},
-        {{cars[1].EngineType}},
-        {{cars[1].Capacity}}
-    </div>
-    <h3>{{cars[1].Price}}</h3>
-</div>
-
-<div id = "Mazda6">
-    <div id = "Mazda6Q">
-        <h1>{{cars[2].mark}}</h1>
-        <h1>{{cars[2].model}}</h1>
-    </div>
-    <div id = "Mazda6Spec">
-        {{cars[2].YoP}}
-        {{cars[2].Mileage}}
-        {{cars[2].EngineType}}
-        {{cars[2].Capacity}}
-    </div>
-    <h3>{{cars[2].Price}}</h3>
-</div>
-
-<div id = "Mazda3">
-    <div id = "Mazda3Q">
-        <h1>{{cars[3].mark}}</h1>
-        <h1>{{cars[3].model}}</h1>
-    </div>
-    <div id = "Mazda3Spec">
-        {{cars[3].YoP}}
-        {{cars[3].Mileage}}
-        {{cars[3].EngineType}}
-        {{cars[3].Capacity}}
-    </div>
-    <h3>{{cars[3].Price}}</h3>
-</div>
+{% for car in cars %}
+    {% include 'car', car: car %}
+{% endfor %}
