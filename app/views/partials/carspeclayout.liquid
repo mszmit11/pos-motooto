@@ -1,18 +1,29 @@
 <div class="container">
     <div class="box-1">
-        <div>
-            {{car.manufacture_year }}
-        </div>
-        {{car.manufacture_year }}
-        <img src="{{car.images[0].filename | asset_url}}" alt="">
+        <img src="{{car.images[0].filename | asset_url}}" width="150" height="150" alt="">
     </div>
     <div class="box-2">
-
+        <span style="font-size: 28px"><h4>Car details</h4></span>
+        <h5>
+            <p><span style="color: blue">Mark</span> {{ car.mark | upcase }}</p>
+            <p><span style="color: blue">Model</span> {{ car.model }}</p>
+            <p><span style="color: blue">Manufacture year</span> {{ car.manufacture_year }}</p>
+            <p><span style="color: blue">Mileage</span> {{ car.mileage }}km</p>
+            <p><span style="color: blue">Engine Type</span> {{ car.enginetype }}</p>
+            <p><span style="color: blue">Capacity</span> {{ car.capacity }}cm3</p>
+            <p><span style="color: blue">Engine Power</span> {{ car.power}}km</p>
+            <p><span style="color: blue">Type of car</span> {{ car.typecar }}</p>
+            <p><span style="color: blue">Color</span> {{ car.color }}</p>
+            <p><span style="color: blue">County Of Origin</span> {{ car.country }}</p>
+        </h5>
+        <h3><p><span style="color: blue">Price</span> {{car.price}}PLN</h3>
     </div>
     <div class="box-3">
-
+        <div class="image2"><img src="{{car.images2[0].filename | asset_url}}" alt=""></div>
     </div>
     <div class="box-4">
-
+        <div class="image3"><img src="{{car.images3[0].filename | asset_url}}" alt=""></div>
+    </div>
+    <div class="box-5">
     </div>
 </div>

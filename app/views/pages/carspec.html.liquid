@@ -2,6 +2,8 @@
     {% include 'cars' %}
 {% endparse_json %}
 
-{% include 'carspeclayout'  %}
+{% for car in cars %}
+    {% include 'carspeclayout', carspeclayout: carspeclayout %}
+{% endfor %}
 
 
